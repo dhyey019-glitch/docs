@@ -33,7 +33,13 @@ The flag editor gives you full control over any FastFlag:
 ### Import Format
 
 ```json
-{
+{{
+  "DFIntTaskSchedulerTargetFps": "120",
+  "FFlagDebugGraphicsPreferMetal": "True",
+  "FIntRenderShadowIntensity": "0",
+  "FIntRenderGrassHeightScaler": "0",
+  "FFlagDisablePostFx": "True"
+}
     "FFlagExampleFlag": true,
     "DFIntAnotherFlag": 120
 }
